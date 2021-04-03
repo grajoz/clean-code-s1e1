@@ -18,13 +18,15 @@ body {
 }
 
 @media (max-width:768px) {
+
   .header {
     text-align: center;
   }
+  
 }
 .centered-main-page {
   display: block;
-  width: 400px;
+  width: 410px;
   margin: 0 auto 0;
 }
 .task {
@@ -38,7 +40,7 @@ ul {
 li, h3 {
   list-style:none;
 }
-input,.button{
+input, .button{
   outline:none;
 }
 .button {
