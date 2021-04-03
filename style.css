@@ -26,7 +26,7 @@ body {
 }
 .centered-main-page {
   display: block;
-  width: 410px;
+  width: 407px;
   margin: 0 auto 0;
 }
 .task {
@@ -37,13 +37,15 @@ ul {
   margin:0;
   padding: 0px;
 }
-li, h3 {
+li,
+h3 {
   list-style: none;
 }
-input, .button{
+input,
+button{
   outline: none;
 }
-.button {
+button {
   background: none;
   border: 0px;
   color: #888;
@@ -52,7 +54,7 @@ input, .button{
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.button:hover {
+button:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -119,12 +121,12 @@ li > input[type="text"] {
 li > .button.delete:hover {
   color: #cf2323;
 }
-.button.delete img {
+button.delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.button.delete img:hover {
+button.delete img:hover {
   transform: rotateZ(0);
 }
 
